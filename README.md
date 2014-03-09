@@ -1,4 +1,4 @@
-green-etcd-client
+Etcd-py
 =================
 
 Gevent powered etcd client
