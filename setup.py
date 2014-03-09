@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 requires = [ "requests>=2.1.0", "grequests>=0.2.0" ]
 
-setup(name="getcd-py",
+setup(name="py-etcd",
       version="0.1.0",
       platforms='any',
       packages = find_packages("etcd"),
@@ -11,8 +11,8 @@ setup(name="getcd-py",
       author = "Bogdan Gaza",
       author_email = "bc.gaza@gmail.com",
       url = "https://github.com/hurrycane/etcd-py",
-      description = """Gevent powered etcd-client""",
-      keywords = ['etcd', 'client', 'gevent', 'greenlet', 'green'],
+      description = """Full fledged etcd-client for python. Gevent-ready. Batteries included""",
+      keywords = ['etcd', 'client', 'gevent', 'greenlet', 'green', 'etcd-clien'],
       #entry_points = {'console_scripts': [ 'finny = finny.runner:execute_from_cli' ]},
       test_requirements = [],
       classifiers = [
