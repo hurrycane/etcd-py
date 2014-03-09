@@ -1,4 +1,4 @@
-Etcd-py
+gEtcd-py
 =================
 
 Gevent powered etcd client
