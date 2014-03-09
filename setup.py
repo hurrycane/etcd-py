@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-requires = [ "requests>=2.1.0" ]
+requires = [ "requests>=2.1.0", "grequests>=0.2.0" ]
 
 setup(name="etcd-py",
       version="0.1.0",
