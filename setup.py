@@ -12,6 +12,7 @@ setup(name="etcd-py",
       author_email = "bc.gaza@gmail.com",
       url = "https://github.com/hurrycane/etcd-py",
       description = """Gevent powered etcd-client""",
+      keywords = ['etcd', 'client'],
       #entry_points = {'console_scripts': [ 'finny = finny.runner:execute_from_cli' ]},
       test_requirements = [],
       classifiers = [
