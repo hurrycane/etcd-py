@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 requires = [ "requests>=2.1.0", "grequests>=0.2.0" ]
 
 setup(name="py-etcd",
-      version="0.1.0",
+      version="0.1.1",
       platforms='any',
-      packages = find_packages("etcd"),
+      packages = find_packages(),
       include_package_data=True,
       install_requires=requires,
       author = "Bogdan Gaza",

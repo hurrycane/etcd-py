@@ -79,10 +79,7 @@ class Client(object):
     if timeout == None:
       timeout = 60
 
-    print url
-
     response = partial_requests(url, data=data, timeout=timeout)
 
-    print response.status_code
     return self._parse_response(response, full_response=full_response,
                                 no_answer=no_answer)
