@@ -40,8 +40,12 @@ class Client(object):
   def refresh_dir(self, name):
     pass
 
-  def refresh(self, name, ttl):
+  def refresh(self, name, ttl, value=None):
     data = { 'prevExist': True }
+
+    if value:
+      data['value'] = value
+
     if ttl:
       data['ttl'] = ttl
 
